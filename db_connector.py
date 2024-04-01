@@ -4,11 +4,11 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-ENDPOINT = os.environ.get("ENDPOINT")
-PORT = os.environ.get("PORT")
-USER = os.environ.get("USER")
-PASSWORD = os.environ.get("PASSWORD")
-DBNAME = os.environ.get("DBNAME")
+ENDPOINT = os.environ.get("DB_ENDPOINT")
+PORT = os.environ.get("DB_PORT")
+USER = os.environ.get("DB_USER")
+PASSWORD = os.environ.get("DB_PASSWORD")
+DBNAME = os.environ.get("DB_DBNAME")
 
 
 
